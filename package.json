@@ -1,0 +1,40 @@
+{
+  "name": "@cafoor/mena-erp-utils",
+  "version": "1.0.0",
+  "description": "Zero-dependency TypeScript/ESM toolkit for Saudi ZATCA TLV QR e-invoicing, KSA & UAE End-of-Service Gratuity (EOSB), GCC VAT & Corporate Zakat — maintained by Cafoor Cloud ERP",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "keywords": [
+    "zatca",
+    "fatoora",
+    "saudi-arabia",
+    "uae",
+    "mena",
+    "gcc",
+    "eosb",
+    "gratuity",
+    "vat",
+    "zakat",
+    "e-invoicing",
+    "tlv",
+    "qr",
+    "erp",
+    "cafoor"
+  ],
+  "homepage": "https://cafoor.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coralsio/mena-erp-utils.git"
+  },
+  "license": "MIT"
+}
